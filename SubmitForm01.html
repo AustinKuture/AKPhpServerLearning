@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证01</title>
+    <style>
+
+        .error {color: #FF0000}
+    </style>
+</head>
+<body>
+<h2> 表单列表 </h2>
+<h3 class="error"> * 为必填字段</h3>
+
+<form method="post" action="SubmitForm01.php" target="_top">
+
+   姓名  : <input type="text" name="fname"> <br>
+ E-mail : <input type="email" name="femail"> <br>
+   网址  : <input type="website" name="website"> <br>
+   备注  : <textarea rows="20" cols="50" name="coment"></textarea> <br>
+   性别  : <input type="radio" name="gender" value="男"> 男 <br>
+          <input type="radio" name="gender" value="女"> 女 <br>
+          <input type="submit" value="提交">
+</form>
+
+</body>
+</html>
